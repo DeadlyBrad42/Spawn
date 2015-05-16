@@ -62,11 +62,14 @@ app.register({
 				);
 				
 				// Draw character 2. Should always be anchored to bottom right
+				_ctx.save();
+				_ctx.scale(-1, 1);
 				_ctx.drawImage(
 					_panel.Character2,
-					_panelXOrigin + _panelWidth - _panel.Character2.width,
+					-(_panelXOrigin + _panelWidth),
 					_panelYOrigin + _panelHeight - _panel.Character2.height
 				);
+				_ctx.restore();
 				
 				// Depending on the speech bubble owner, draw a different speech bubble
 				_ctx.drawImage(
