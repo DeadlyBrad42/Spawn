@@ -1,6 +1,8 @@
 # Spawn
 ### A random comic generator
 
+![alt text](https://raw.githubusercontent.com/DeadlyBrad42/Spawn/master/docs/example.png "Example comic")
+
 ## How To Use
 Basically, you just open `index.html`. If you want a new comic, refresh. Yep, that's it.
 
