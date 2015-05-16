@@ -10,8 +10,16 @@ app.register({
 			_characters;
 		
 		_characters = [
+			_basePath + 'CapMarvel.png',
 			_basePath + 'Chester.png',
-			_basePath + 'Goku.png'
+			_basePath + 'Coolspot.png',
+			_basePath + 'Fatman.png',
+			_basePath + 'Goku.png',
+			_basePath + 'Hulk.png',
+			_basePath + 'Megaman.png',
+			_basePath + 'Rapgod.png',
+			_basePath + 'Skele.png',
+			_basePath + 'Wizard.png',
 		];
 		
 		return {

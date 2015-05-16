@@ -11,7 +11,15 @@ app.register({
 		
 		_backgrounds = [
 			_basePath + 'Alley.png',
-			_basePath + 'Bar.png'
+			_basePath + 'Bar.png',
+			_basePath + 'Beach.png',
+			_basePath + 'Cockpit.png',
+			_basePath + 'SDungeon.png',
+			_basePath + 'Space Shuttle.png',
+			_basePath + 'Stoner.png',
+			_basePath + 'Store.png',
+			_basePath + 'Volcano.png',
+			_basePath + 'Wrestling Ring.png',
 		];
 		
 		return {
